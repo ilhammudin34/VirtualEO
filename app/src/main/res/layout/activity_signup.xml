@@ -29,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-45dp"
         android:fontFamily="@font/poppinssemibold"
-        android:text="SIGN UP"
+        android:text="SIGN UPS"
         android:textColor="@color/white"
         android:textSize="32dp" />
 

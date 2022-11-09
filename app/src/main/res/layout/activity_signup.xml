@@ -32,17 +32,31 @@
         android:text="SIGN UP"
         android:textColor="@color/white"
         android:textSize="32dp"
-        android:id="@+id/txt_2"/>
+        android:id="@+id/txt_1"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txt_2"
+        android:layout_below="@id/txt_1"
         android:layout_centerHorizontal="true"
-        android:width="300dp"
+        android:layout_marginTop="15dp"
+        android:width="327dp"
         android:background="@drawable/textfield"
-        android:hint="vhvs"
-        android:minHeight="48dp" />
+        android:fontFamily="@font/poppinsregular"
+        android:hint="  NIK"
+        android:minHeight="55dp"
+        android:textColorHint="@color/white"
+        android:id="@+id/jtxt_1"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jtxt_1"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:width="327dp"
+        android:minHeight="55dp"
+        android:background="@drawable/textfield"
+
 
 
 

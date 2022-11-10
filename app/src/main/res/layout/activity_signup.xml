@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/img_1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-51dp"
+        android:layout_marginTop="-71dp"
         android:fontFamily="@font/poppinssemibold"
         android:text="SIGN UP"
         android:textColor="@color/white"
@@ -56,7 +56,7 @@
         android:width="327dp"
         android:minHeight="55dp"
         android:background="@drawable/textfield"
-        android:hint=" NAMA LENGKAP"
+        android:hint=" Nama Lengka"
         android:textColorHint="@color/white"
         android:id="@+id/jtxt_nama"/>
     <EditText
@@ -69,7 +69,7 @@
         android:width="327dp"
         android:height="55dp"
         android:background="@drawable/textfield"
-        android:hint=" TANGGAL LAHIR"
+        android:hint=" Tanggal Lahir"
         android:textColorHint="@color/white"/>
     <EditText
         android:id="@+id/jtxt_address"
@@ -81,7 +81,7 @@
         android:width="327dp"
         android:height="55dp"
         android:background="@drawable/textfield"
-        android:hint=" ADDRESS"
+        android:hint=" Address"
         android:textColorHint="@color/white"/>
     <EditText
         android:id="@+id/jtxt_nomor"
@@ -93,8 +93,44 @@
         android:width="327dp"
         android:height="55dp"
         android:background="@drawable/textfield"
-        android:hint=" NOMOR "
+        android:hint=" Nomor "
         android:textColorHint="@color/white"/>
+    <EditText
+        android:id="@+id/jtxt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jtxt_nomor"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:width="327dp"
+        android:height="55dp"
+        android:background="@drawable/textfield"
+        android:hint=" Email Address"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:id="@+id/jtxt_assword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jtxt_email"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:width="327dp"
+        android:height="55dp"
+        android:background="@drawable/textfield"
+        android:hint=" assword"
+        android:textColorHint="@color/white"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jtxt_assword"
+        android:layout_marginTop="21dp"
+        android:layout_centerHorizontal="true"
+        android:width="327dp"
+        android:height="55dp"
+        android:background="@drawable/rounded_biru"
+        android:hint="SIGNU"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/poppinsbold"/>
 
 
 </RelativeLayout>

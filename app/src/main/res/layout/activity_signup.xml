@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/img_1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-45dp"
+        android:layout_marginTop="-51dp"
         android:fontFamily="@font/poppinssemibold"
         android:text="SIGN UP"
         android:textColor="@color/white"
@@ -39,28 +39,62 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txt_1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="21dp"
         android:width="327dp"
         android:background="@drawable/textfield"
         android:fontFamily="@font/poppinsregular"
         android:hint="  NIK"
         android:minHeight="55dp"
         android:textColorHint="@color/white"
-        android:id="@+id/jtxt_1"/>
+        android:id="@+id/jtxt_nik"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/jtxt_1"
+        android:layout_below="@id/jtxt_nik"
         android:layout_marginTop="11dp"
         android:layout_centerHorizontal="true"
         android:width="327dp"
         android:minHeight="55dp"
         android:background="@drawable/textfield"
-
-
-
-
-
+        android:hint=" NAMA LENGKAP"
+        android:textColorHint="@color/white"
+        android:id="@+id/jtxt_nama"/>
+    <EditText
+        android:id="@+id/jtxt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jtxt_nama"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:width="327dp"
+        android:height="55dp"
+        android:background="@drawable/textfield"
+        android:hint=" TANGGAL LAHIR"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:id="@+id/jtxt_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jtxt_date"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:width="327dp"
+        android:height="55dp"
+        android:background="@drawable/textfield"
+        android:hint=" ADDRESS"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:id="@+id/jtxt_nomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jtxt_address"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:width="327dp"
+        android:height="55dp"
+        android:background="@drawable/textfield"
+        android:hint=" NOMOR "
+        android:textColorHint="@color/white"/>
 
 
 </RelativeLayout>

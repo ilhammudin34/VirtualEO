@@ -81,8 +81,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="345dp"
-        android:layout_height="48dp"
+        android:layout_width="346dp"
+        android:layout_height="47dp"
         android:background="@drawable/rounded_biru"
         android:backgroundTint="#3451ff"
         android:text="Kirim Email"
@@ -97,15 +97,16 @@
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="35dp"
-        android:layout_height="32dp"
+        android:layout_height="48dp"
         android:background="#0D040404"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055"
-        app:srcCompat="@android:drawable/ic_menu_revert" />
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/login" />
+        app:srcCompat="@drawable/Login" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -26,7 +26,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/login" />
+        app:srcCompat="@drawable/Login" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"

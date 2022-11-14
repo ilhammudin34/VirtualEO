@@ -7,14 +7,105 @@
     android:background="#FFFFFF">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="475dp"
-        android:layout_height="794dp"
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.507"
-        app:srcCompat="@drawable/bg" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/BG4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="289dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Lupa Password?"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Kembali"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="370dp"
+        android:layout_height="76dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Masukkan email yang terdaftar dengan akun Anda dan kami akan mengirimkan email untuk mereset password akun"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="348dp"
+        android:layout_height="53dp"
+        android:background="@drawable/textfield"
+        android:fontFamily="@font/poppinsregular"
+        android:text="  Email Address"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_biru"
+        android:backgroundTint="#3451ff"
+        android:text="Kirim Email"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:background="#0D040404"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

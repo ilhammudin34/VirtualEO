@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ITEM3">
+
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/top_bar_home"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/whatsapp_image_2022_10_22_at_10_00_42_removebg_preview"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:textColor="@color/white" android:textSize="32dp" android:text="SYARIF" />
+    </LinearLayout>
+
+
+</RelativeLayout>

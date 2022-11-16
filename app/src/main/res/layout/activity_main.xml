@@ -14,7 +14,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Login" />
+        app:srcCompat="@drawable/login" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -26,7 +26,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Login" />
+        app:srcCompat="@drawable/login" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -64,7 +64,7 @@
         android:layout_height="55dp"
         android:background="@drawable/rounded_biru"
         android:backgroundTint="#3451ff"
-        android:text="Login"
+        android:text="login"
         android:fontFamily="@font/poppinssemibold"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -105,7 +105,7 @@
                 android:fontFamily="@font/poppinsregular"
                 android:text="Rincian Produk1"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -113,7 +113,7 @@
                 android:fontFamily="@font/poppinsregular"
                 android:text="Rincian Produk2"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
                 android:fontFamily="@font/poppinsregular"
                 android:text="Rincian Produk3"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="16sp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -218,7 +218,7 @@
         android:text="Pesan Sekarang"
         android:textColor="@color/white"
         android:fontFamily="@font/poppinsmedium"
-        android:background="@drawable/rounded_biru"
+        android:background="@drawable/rounded_biru_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"

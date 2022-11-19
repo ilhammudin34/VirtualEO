@@ -3,25 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg__5_" />
+    android:layout_height="match_parent"
+    android:background="@drawable/bg__5_">
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="411dp"
-        android:layout_height="859dp"
-        android:layout_marginTop="90dp"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="20dp"
+        android:foregroundGravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -31,20 +24,14 @@
             android:background="#3E3E3E"
             android:orientation="vertical">
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_weight="1" />
-
             <TextView
-                android:layout_width="360dp"
+                android:layout_width="350dp"
                 android:layout_height="17dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:fontFamily="@font/poppinssemibold"
                 android:text="Alamat Pemesan"
-                android:textColor="@color/white"
-                />
+                android:textColor="@color/white" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="360dp"
@@ -54,8 +41,9 @@
                 android:textColorHint="#000000">
 
                 <EditText
-                    android:layout_width="match_parent"
+                    android:layout_width="342dp"
                     android:layout_height="match_parent"
+                    android:layout_gravity="center"
                     android:background="#D9D9D9"
                     android:fontFamily="@font/poppinsregular"
                     android:hint="Detail Alamat Pesanan"
@@ -66,11 +54,11 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="15dp"
                 android:layout_weight="1" />
 
             <TextView
-                android:layout_width="360dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -81,84 +69,390 @@
 
             <Space
                 android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="RIncian Harga1"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="RIncian Harga2"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="RIncian Harga3"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="83dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="NominalHarga1"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="NominalHarga2"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="NominalHarga3"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="4dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="23dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Total Harga"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="83dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="end"
+                        android:text="Total Nominal Harga"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="11dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Tambah Pesanan"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00ffffff"
+                        app:srcCompat="@drawable/ic_baseline_add_circle_24" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_gravity="center|start"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_putih"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Tambah"
+                        android:textColor="@color/black"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="11dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
                 android:layout_weight="1" />
 
             <TextView
-                android:layout_width="360dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:fontFamily="@font/poppinsregular"
-                android:text="RIncian Harga"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Jadwalkan Pengiriman"
                 android:textColor="@color/white"
                 android:textSize="15dp" />
 
-            <TextView
-                android:id="@+id/textView40"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="313dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:fontFamily="@font/poppinsregular"
-                android:text="RIncian Harga"
-                android:textColor="@color/white"
-                android:textSize="15dp" />
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView42"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:fontFamily="@font/poppinsregular"
-                android:text="RIncian Harga"
-                android:textColor="@color/white"
-                android:textSize="15dp" />
-
-            <TextView
-                android:id="@+id/textView43"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:fontFamily="@font/poppinsregular"
-                android:text="RIncian Harga"
-                android:textColor="@color/white"
-                android:textSize="15dp" />
-
-            <TextView
-                android:id="@+id/textView44"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:fontFamily="@font/poppinsregular"
-                android:text="RIncian Harga"
-                android:textColor="@color/white"
-                android:textSize="15dp" />
-
-            <View
-                android:id="@+id/view"
-                android:layout_width="360dp"
-                android:layout_height="99dp"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:background="#80D9D9D9" />
+                <CalendarView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:dateTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:weekNumberColor="#FFFFFF"
+                    android:weekSeparatorLineColor="#FFFFFF" />
+            </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
                 android:layout_weight="1" />
 
-            <View
-                android:id="@+id/view2"
-                android:layout_width="360dp"
-                android:layout_height="148dp"
-                android:layout_weight="1"
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#80D9D9D9" />
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="PIlih Metode Pembayaran"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
 
+            <LinearLayout
+                android:layout_width="316dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sendiri_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_bar"
+                    android:elevation="4dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppinsregular"
+                    android:gravity="center|end"
+                    android:text=" Jumlah Saldo"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="316dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/owo_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_bar"
+                    android:elevation="4dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppinsregular"
+                    android:gravity="center|end"
+                    android:text=" Jumlah Saldo"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="316dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/search_bar"
+                android:elevation="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Bayar Tunai"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_weight="1" />
 
         </LinearLayout>
     </ScrollView>
@@ -169,6 +463,7 @@
         android:layout_height="89dp"
         android:background="@drawable/rounded_biru_dark"
         android:fontFamily="@font/poppinsmedium"
+        android:foregroundGravity="center"
         android:text="Pesan Sekarang"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -157,7 +157,7 @@
                     <ImageView
                         android:layout_width="122dp"
                         android:layout_height="137dp"
-                        android:layout_gravity="left"
+                        android:layout_gravity="center"
                         app:srcCompat="@drawable/gedung_acara__nikah__dll_1" />
 
                     <TextView
@@ -211,7 +211,7 @@
                     <ImageView
                         android:layout_width="122dp"
                         android:layout_height="137dp"
-                        android:layout_gravity="left"
+                        android:layout_gravity="center"
                         app:srcCompat="@drawable/katering" />
 
                     <TextView
@@ -257,7 +257,7 @@
                     android:layout_weight="1" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="130dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
@@ -314,7 +314,7 @@
                     <ImageView
                         android:layout_width="122dp"
                         android:layout_height="137dp"
-                        android:layout_gravity="left"
+                        android:layout_gravity="center"
                         app:srcCompat="@drawable/gedung_acara__nikah__dll_1" />
 
                     <TextView

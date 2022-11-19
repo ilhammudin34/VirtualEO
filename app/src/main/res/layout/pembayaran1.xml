@@ -3,17 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg__5_" />
+    android:layout_height="match_parent"
+    android:background="@drawable/bg__5_">
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -59,11 +50,14 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="411dp"
-        android:layout_height="859dp"
-        android:layout_marginTop="90dp"
+        android:layout_width="377dp"
+        android:layout_height="862dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="20dp"
+        android:foregroundGravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -215,10 +209,10 @@
         android:id="@+id/button8"
         android:layout_width="411dp"
         android:layout_height="89dp"
+        android:background="@drawable/rounded_biru_dark"
+        android:fontFamily="@font/poppinsmedium"
         android:text="Pesan Sekarang"
         android:textColor="@color/white"
-        android:fontFamily="@font/poppinsmedium"
-        android:background="@drawable/rounded_biru_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"

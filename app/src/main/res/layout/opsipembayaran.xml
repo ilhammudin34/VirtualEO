@@ -3,20 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/instagram_story___1__1_">
 
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/instagram_story___1__1_" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -27,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/backk" />
 
@@ -40,8 +29,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.864"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.007"
         app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
@@ -53,8 +40,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.007"
         app:srcCompat="@drawable/ic_baseline_notifications" />
 
     <TextView
@@ -74,24 +59,26 @@
 
     <ImageButton
         android:id="@+id/imageButton17"
-        android:layout_width="154dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="132dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/owo2"
+        app:layout_constraintEnd_toEndOf="@+id/owo2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/owo2"
+        app:layout_constraintTop_toTopOf="@+id/owo2"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/owo_1" />
 
     <ImageButton
         android:id="@+id/imageButton18"
-        android:layout_width="155dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="216dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/owo"
+        app:layout_constraintEnd_toEndOf="@+id/owo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/owo"
+        app:layout_constraintTop_toTopOf="@+id/owo"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/sendiri_1" />
 
     <TextView
@@ -100,7 +87,7 @@
         android:layout_height="52dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="216dp"
         android:background="@drawable/search_bar"
         android:elevation="4dp"
         android:ems="10"
@@ -112,6 +99,7 @@
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/owo2"
@@ -131,7 +119,6 @@
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageView
         android:id="@+id/imageView3"

@@ -8,7 +8,7 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton23"
         android:layout_width="36dp"
         android:layout_height="48dp"
         android:background="#00040404"
@@ -21,26 +21,43 @@
         app:srcCompat="@drawable/backk" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButton24"
         android:layout_width="36dp"
         android:layout_height="48dp"
         android:background="#00040404"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton25"
         android:layout_width="36dp"
         android:layout_height="48dp"
         android:background="#0D040404"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintHorizontal_bias="0.989"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_notifications" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="#00040404"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/backk" />
 
     <TextView
         android:id="@+id/textView5"

@@ -3,142 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/instagram_story___1__1_">
 
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/instagram_story___1__1_" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="202dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Nama Lengkap2"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="202dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Nama Lengkap3"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.522" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="202dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Tambah Akun"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="88dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Email2"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="88dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Email3"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="88dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Email1"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="202dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Nama Lengkap1"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.159" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton34"
         android:layout_width="36dp"
         android:layout_height="48dp"
         android:background="#00040404"
@@ -146,37 +16,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/backk" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton36"
         android:layout_width="36dp"
         android:layout_height="48dp"
-        android:background="#00040404"
+        android:background="#0D040404"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.96"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.007"
-        app:srcCompat="@drawable/ic_baseline_notifications" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="62dp"
-        android:layout_height="22dp"
-        android:fontFamily="@font/poppinsregular"
-        android:text="Profile"
-        android:textColor="@color/white"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintHorizontal_bias="0.989"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_notifications" />
 
     <TextView
         android:id="@+id/textView25"
@@ -193,6 +48,252 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.068" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="62dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00040404"
+                    app:srcCompat="@drawable/ic_baseline_person_84" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="202dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Nama Lengkap1"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="bottom"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Email1"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00040404"
+                    app:srcCompat="@drawable/ic_baseline_person_84" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="202dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Nama Lengkap2"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="bottom"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Email2"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00040404"
+                    app:srcCompat="@drawable/ic_baseline_person_84" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="202dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Nama Lengkap3"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="bottom"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Email3"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00040404"
+                    app:srcCompat="@drawable/ic_baseline_person_84" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="202dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Nama Lengkap4"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="bottom"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Email4"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="83dp"
+                    android:layout_height="93dp"
+                    android:background="#00040404"
+                    app:srcCompat="@drawable/ic_baseline_person_add_84" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="202dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center|top"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="center"
+                        android:text="Tambah Akun"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
@@ -203,57 +304,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/buttons" />
-
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00040404"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.171"
-        app:srcCompat="@drawable/ic_baseline_person_84" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00040404"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561"
-        app:srcCompat="@drawable/ic_baseline_person_84" />
-
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00040404"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374"
-        app:srcCompat="@drawable/ic_baseline_person_84" />
-
-    <ImageButton
-        android:id="@+id/imageButton15"
-        android:layout_width="83dp"
-        android:layout_height="93dp"
-        android:background="#00040404"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758"
-        app:srcCompat="@drawable/ic_baseline_person_add_84" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

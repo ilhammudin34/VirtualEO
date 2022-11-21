@@ -14,7 +14,7 @@
         android:background="#FFFFFF"
         android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/login" />
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.597" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonLogIn"
         android:layout_width="327dp"
         android:layout_height="55dp"
         android:background="@drawable/rounded_biru"
@@ -69,7 +69,7 @@
         app:layout_constraintVertical_bias="0.887" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonNewAc"
         android:layout_width="327dp"
         android:layout_height="55dp"
         android:background="@drawable/rounded_putih"
@@ -83,7 +83,7 @@
         app:layout_constraintVertical_bias="0.792" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonForgPass"
         android:layout_width="135dp"
         android:layout_height="53dp"
         android:background="@drawable/rounded_biru"

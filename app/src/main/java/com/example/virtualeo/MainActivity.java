@@ -23,10 +23,21 @@ public class MainActivity extends AppCompatActivity {
                 openhome();
             }
         });
+
+        button = (Button) findViewById(R.id.buttonNewAc);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { opensignup();
+            }
+        });
     }
 
     public void openhome(){
         Intent intent = new Intent(this, home.class);
+        startActivity(intent);
+    }
+    public void opensignup() {
+        Intent intent = new Intent(this, signup.class);
         startActivity(intent);
     }
 }

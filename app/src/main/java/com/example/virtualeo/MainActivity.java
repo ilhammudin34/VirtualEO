@@ -30,6 +30,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) { opensignup();
             }
         });
+
+        button = (Button) findViewById(R.id.buttonForgPass);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { openforgorpass();
+            }
+        });
     }
 
     public void openhome(){
@@ -38,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void opensignup() {
         Intent intent = new Intent(this, signup.class);
+        startActivity(intent);
+    }
+    public void openforgorpass() {
+        Intent intent = new Intent(this, forgorpass.class);
         startActivity(intent);
     }
 }

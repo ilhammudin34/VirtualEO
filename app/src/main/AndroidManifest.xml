@@ -13,6 +13,8 @@
         android:theme="@style/Theme.VirtualEO"
         tools:targetApi="31">
         <activity android:name=".home"/>
+        <activity android:name=".profilMain"/>
+        <activity android:name=".notifMain"/>
         <activity android:name=".forgorpass"/>
         <activity android:name=".kateringMain"/>
         <activity android:name=".kostumMain"/>
@@ -20,6 +22,8 @@
         <activity android:name=".suvenMain"/>
         <activity android:name=".undaMain"/>
         <activity android:name=".gedungMain"/>
+
+
 
         <activity
             android:name=".signup"

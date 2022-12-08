@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/instagram_story___1__1_"
-    >
+    tools:context=".thirdFragment">
 
 
 
@@ -105,12 +105,125 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.096" />
 
-    <ScrollView
-        android:layout_width="411dp"
-        android:layout_height="859dp"
-        android:layout_marginTop="140dp"
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:layout_width="126dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:background="@drawable/blubutton"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Gedung dan Tempat"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.155" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:background="@drawable/blubutton"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Aksesori"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.155" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="135dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:background="@drawable/blubutton"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Kostum dan Riasan"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.155" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="111dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:background="@drawable/blubutton"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Undangan"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.155" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/etalaseContent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -118,11 +231,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_weight="1"></Space>
 
 
             <TextView
@@ -255,7 +363,7 @@
 
                     <ImageView
                         android:layout_width="122dp"
-                        android:layout_height="137dp"
+                        android:layout_height="128dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/add_new__1_" />
 
@@ -346,7 +454,7 @@
                 </LinearLayout>
 
                 <Space
-                    android:layout_width="13dp"
+                    android:layout_width="10dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
@@ -451,7 +559,7 @@
                 </LinearLayout>
 
                 <Space
-                    android:layout_width="24dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
@@ -487,122 +595,13 @@
 
             </LinearLayout>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"></Space>
+
         </LinearLayout>
     </ScrollView>
-
-    <HorizontalScrollView
-        android:layout_width="454dp"
-        android:layout_height="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139">
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:orientation="horizontal"
-
-            >
-
-            <Button
-                android:layout_width="126dp"
-                android:layout_height="28dp"
-                android:layout_gravity="center"
-                android:background="@drawable/blubutton"
-                android:fontFamily="@font/poppinsregular"
-                android:text="Gedung dan Tempat"
-                android:textColor="@color/white"
-                android:textSize="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.07"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.155" />
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <Button
-                android:layout_width="80dp"
-                android:layout_height="28dp"
-                android:layout_gravity="center"
-                android:background="@drawable/blubutton"
-                android:fontFamily="@font/poppinsregular"
-                android:text="Aksesori"
-                android:textColor="@color/white"
-                android:textSize="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.07"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.155" />
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <Button
-                android:layout_width="135dp"
-                android:layout_height="28dp"
-                android:layout_gravity="center"
-                android:background="@drawable/blubutton"
-                android:fontFamily="@font/poppinsregular"
-                android:text="Kostum dan Riasan"
-                android:textColor="@color/white"
-                android:textSize="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.07"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.155" />
-
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <Button
-                android:layout_width="111dp"
-                android:layout_height="28dp"
-                android:layout_gravity="center"
-                android:background="@drawable/blubutton"
-                android:fontFamily="@font/poppinsregular"
-                android:text="Undangan"
-                android:textColor="@color/white"
-                android:textSize="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.07"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.155" />
-
-
-        </LinearLayout>
-
-    </HorizontalScrollView>
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="612dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/buttons" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

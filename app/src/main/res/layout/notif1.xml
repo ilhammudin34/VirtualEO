@@ -59,241 +59,259 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="128dp"
-        android:layout_height="32dp"
-        android:background="@drawable/blubutton"
-        android:fontFamily="@font/poppinsregular"
-        android:text="Pesanan"
-        android:textColor="@color/white"
-        android:textSize="10dp"
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.336">
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="128dp"
-        android:layout_height="32dp"
-        android:background="@drawable/blubutton"
-        android:fontFamily="@font/poppinsregular"
-        android:text="Pembayaran"
-        android:textColor="@color/white"
-        android:textSize="10dp"
+        <FrameLayout
+            android:layout_width="369dp"
+            android:layout_height="136dp"
+            android:background="@drawable/rounded_putih">
+
+            <ImageView
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/notifgol" />
+
+            <TextView
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="start"
+                android:text="Pesanan dari Alamat1"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="start"
+                android:text="Status Pesanan1"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="start"
+                android:text="dd/mm/yyyy"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:layout_width="369dp"
+            android:layout_height="136dp"
+            android:background="@drawable/rounded_putih">
+
+            <ImageView
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/notifgol" />
+
+            <TextView
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="start"
+                android:text="Pesanan dari Alamat2"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="start"
+                android:text="Status Pesanan2"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="start"
+                android:text="dd/mm/yyyy"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:layout_width="369dp"
+            android:layout_height="136dp"
+            android:background="@drawable/rounded_putih">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/notifgol" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="start"
+                android:text="Pesanan dari Alamat3"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="start"
+                android:text="Status Pesanan3"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="start"
+                android:text="dd/mm/yyyy"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.14">
 
-    <FrameLayout
-        android:layout_width="369dp"
-        android:layout_height="136dp"
-        android:background="@drawable/rounded_putih"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27">
-
-        <ImageView
-            android:layout_width="155dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/notifgol" />
-
-        <TextView
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:fontFamily="@font/poppinsbold"
-            android:gravity="start"
-            android:text="Pesanan dari Alamat1"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-        <TextView
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|center"
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="128dp"
+            android:layout_height="32dp"
+            android:background="@drawable/blubutton"
             android:fontFamily="@font/poppinsregular"
-            android:gravity="start"
-            android:text="Status Pesanan1"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:text="Pesanan"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
 
-            />
-
-        <TextView
-            android:layout_width="211dp"
+        <Space
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="end|bottom"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="128dp"
+            android:layout_height="32dp"
+            android:background="@drawable/blubutton"
             android:fontFamily="@font/poppinsregular"
-            android:gravity="start"
-            android:text="dd/mm/yyyy"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="369dp"
-        android:layout_height="136dp"
-        android:background="@drawable/rounded_putih"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569">
-
-        <ImageView
-            android:layout_width="155dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/notifgol" />
-
-        <TextView
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:fontFamily="@font/poppinsbold"
-            android:gravity="start"
-            android:text="Pesanan dari Alamat2"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-        <TextView
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|center"
-            android:fontFamily="@font/poppinsregular"
-            android:gravity="start"
-            android:text="Status Pesanan2"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-        <TextView
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|bottom"
-            android:fontFamily="@font/poppinsregular"
-            android:gravity="start"
-            android:text="dd/mm/yyyy"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/textView28"
-        android:layout_width="369dp"
-        android:layout_height="136dp"
-        android:background="@drawable/rounded_putih"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.855">
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="155dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/notifgol" />
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:fontFamily="@font/poppinsbold"
-            android:gravity="start"
-            android:text="Pesanan dari Alamat3"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|center"
-            android:fontFamily="@font/poppinsregular"
-            android:gravity="start"
-            android:text="Status Pesanan3"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="211dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|bottom"
-            android:fontFamily="@font/poppinsregular"
-            android:gravity="start"
-            android:text="dd/mm/yyyy"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            />
-
-    </FrameLayout>
+            android:text="Pembayaran"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

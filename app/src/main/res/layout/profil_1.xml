@@ -21,19 +21,6 @@
         app:srcCompat="@drawable/backk" />
 
     <ImageButton
-        android:id="@+id/imageButton27"
-        android:layout_width="36dp"
-        android:layout_height="48dp"
-        android:background="#00040404"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_baseline_person_24" />
-
-    <ImageButton
         android:id="@+id/imageButton28"
         android:layout_width="36dp"
         android:layout_height="48dp"
@@ -45,6 +32,184 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_notifications" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="62dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center|left"
+                android:text="AKUN"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="91dp"
+                android:layout_height="34dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Data Diri"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="91dp"
+                android:layout_height="34dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Ganti Akun"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="62dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center|left"
+                android:text="UMUM"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Pusat Bantuan"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Pengaturan"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Metode Pembayaran"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="221dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center|left"
+                android:text="PRIVASI DAN KEAMANAN"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Email Cadangan"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Ganti Password"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Log Out"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="182dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Hapus Akun"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView5"
@@ -61,258 +226,67 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
 
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="91dp"
-        android:layout_height="34dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Ganti Akun"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.358" />
+        app:layout_constraintVertical_bias="0.0">
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="91dp"
-        android:layout_height="34dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Data Diri"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            style="@android:style/Widget.ImageButton"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#00040404"
+            app:srcCompat="@drawable/homebuon3_removebg_preview_4" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="62dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsbold"
-        android:gravity="center|left"
-        android:text="AKUN"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="182dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Pusat Bantuan"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="62dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsbold"
-        android:gravity="center|left"
-        android:text="UMUM"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="245dp"
+                android:layout_height="41dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Nama Lengkap"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="182dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Metode Pembayaran"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="221dp"
-        android:layout_height="30dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsbold"
-        android:gravity="center|left"
-        android:text="PRIVASI DAN KEAMANAN"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.189"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="182dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Ganti Password"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="182dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Email Cadangan"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="182dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Log Out"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.855" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="182dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Hapus Akun"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="182dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Pengaturan"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        style="@android:style/Widget.ImageButton"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:background="#00040404"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146"
-        app:srcCompat="@drawable/homebuon3_removebg_preview_4" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="99dp"
-        android:layout_height="37dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Edit Profil"
-        android:textColor="@color/white"
-        android:textSize="21sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.435"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="245dp"
-        android:layout_height="41dp"
-        android:layout_gravity="center|top"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center|left"
-        android:text="Nama Lengkap"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="99dp"
+                android:layout_height="37dp"
+                android:layout_gravity="start"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center|left"
+                android:text="Edit Profil"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+        </LinearLayout>
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView3"

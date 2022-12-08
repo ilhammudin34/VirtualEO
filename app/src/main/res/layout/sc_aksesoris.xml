@@ -338,19 +338,53 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/buttons" />
 
-    <HorizontalScrollView
-        android:layout_width="454dp"
-        android:layout_height="44dp"
+    <android.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="308dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:autofillHints="name"
+            android:background="@drawable/search_bar"
+            android:drawableStart="@drawable/ic_search_"
+            android:ems="10"
+            android:gravity="center|left"
+            android:hint=" search"
+            android:inputType="number|text"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+
+    </android.widget.Toolbar>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.139">
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="left"
             android:orientation="horizontal"
@@ -436,40 +470,15 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.155" />
 
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
 
         </LinearLayout>
 
     </HorizontalScrollView>
-
-    <android.widget.Toolbar
-        android:layout_width="308dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="36dp"
-        android:elevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.262"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <EditText
-            android:id="@+id/editMobileNo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            android:autofillHints="name"
-            android:background="@drawable/search_bar"
-            android:drawableStart="@drawable/ic_search_"
-            android:ems="10"
-            android:gravity="center|left"
-            android:hint=" search"
-            android:inputType="number|text"
-            android:textColorHint="@color/white"
-            android:textSize="12sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="5dp" />
-
-
-    </android.widget.Toolbar>
 
     <ImageButton
         android:layout_width="36dp"

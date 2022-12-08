@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/searchbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:elevation="4dp">
+
+
+    <EditText
+        android:id="@+id/searchint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:autofillHints="name"
+        android:background="@drawable/search_bar"
+        android:drawableStart="@drawable/ic_search_"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint=" search"
+        android:inputType="number|text"
+        android:textColorHint="@color/white"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/profilMain"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:background="#00040404"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageButton
+        android:id="@+id/notifMain"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:background="#0D040404"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_notifications" />
+
+
+    >
+
+</androidx.appcompat.widget.Toolbar>

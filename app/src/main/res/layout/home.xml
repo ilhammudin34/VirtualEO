@@ -4,14 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/instagram_story___1__1_">
+    android:background="@drawable/instagram_story___1__1_"
+    tools:context=".FirstFragment">
+
+
 
     <ScrollView
+        android:id="@+id/contentsHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="260dp"
         android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -49,13 +54,15 @@
                             app:srcCompat="@drawable/ic_baseline_restaurant_24" />
 
                         <Button
+                            android:id="@+id/kateringMain2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="33dp"
                             android:layout_weight="1"
                             android:background="#00FFFFFF"
                             android:fontFamily="@font/poppinsregular"
                             android:text="Katering"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <Space
@@ -80,13 +87,15 @@
                             app:srcCompat="@drawable/ic_baseline_local_florist_24" />
 
                         <Button
+                            android:id="@+id/aksesoMain2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="33dp"
                             android:layout_weight="1"
                             android:background="#00FFFFFF"
                             android:fontFamily="@font/poppinsregular"
                             android:text="Aksesoris"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <Space
@@ -111,14 +120,15 @@
                             app:srcCompat="@drawable/ic_baseline_costume_cut_24" />
 
                         <Button
+                            android:id="@+id/kostuMain2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="33dp"
                             android:layout_weight="1"
                             android:background="#00FFFFFF"
                             android:fontFamily="@font/poppinsregular"
                             android:text="Kostum dan Riasan"
                             android:textColor="@color/white"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <Space
@@ -143,13 +153,15 @@
                             app:srcCompat="@drawable/ic_baseline_card_suve_24" />
 
                         <Button
+                            android:id="@+id/suvenMain2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="33dp"
                             android:layout_weight="1"
                             android:background="#00FFFFFF"
                             android:fontFamily="@font/poppinsregular"
                             android:text="Suvenir"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -177,14 +189,15 @@
                             app:srcCompat="@drawable/ic_baseline_undang_24" />
 
                         <Button
+                            android:id="@+id/undMain2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="33dp"
                             android:layout_weight="1"
                             android:background="#00FFFFFF"
                             android:fontFamily="@font/poppinsregular"
                             android:text="Undangan"
                             android:textColor="@color/white"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <Space
@@ -209,18 +222,19 @@
                             app:srcCompat="@drawable/ic_baseline_gedung_24" />
 
                         <Button
+                            android:id="@+id/gedungMain2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="33dp"
                             android:layout_weight="1"
                             android:background="#00FFFFFF"
                             android:fontFamily="@font/poppinsregular"
                             android:text="Gedung dan Tempat"
                             android:textColor="@color/white"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <Space
-                        android:layout_width="205dp"
+                        android:layout_width="190dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1" />
 
@@ -250,19 +264,21 @@
                         android:orientation="vertical">
 
                         <ImageButton
+                            android:id="@+id/sendiriHome"
                             android:layout_width="165dp"
                             android:layout_height="47dp"
                             android:backgroundTint="#00FFFFFF"
                             app:srcCompat="@drawable/sendiri1" />
 
                         <Button
+                            android:id="@+id/sendiriSaldoHome"
                             android:layout_width="165dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:background="#34417E"
                             android:fontFamily="@font/poppinssemibold"
-                            android:text="Rp.20.000,00,-"
 
+                            android:text="Rp.20.000,00,-"
                             android:textColor="@color/white" />
                     </LinearLayout>
 
@@ -279,19 +295,21 @@
                         android:orientation="vertical">
 
                         <ImageButton
+                            android:id="@+id/owoHome"
                             android:layout_width="165dp"
                             android:layout_height="47dp"
                             android:backgroundTint="#00FFFFFF"
                             app:srcCompat="@drawable/owo_1" />
 
                         <Button
+                            android:id="@+id/owoSaldoHome"
                             android:layout_width="165dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:background="#34417E"
                             android:fontFamily="@font/poppinssemibold"
-                            android:text="Rp.281.000,00,-"
 
+                            android:text="Rp.281.000,00,-"
                             android:textColor="@color/white" />
                     </LinearLayout>
 
@@ -774,31 +792,21 @@
         </LinearLayout>
     </ScrollView>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="612dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/buttons" />
-
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="wrap_content"
         android:layout_height="44dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.139">
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="left"
             android:orientation="horizontal"
@@ -884,40 +892,15 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.155" />
 
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
 
         </LinearLayout>
 
     </HorizontalScrollView>
-
-    <android.widget.Toolbar
-        android:layout_width="308dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="36dp"
-        android:elevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.262"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <EditText
-            android:id="@+id/editMobileNo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            android:autofillHints="name"
-            android:background="@drawable/search_bar"
-            android:drawableStart="@drawable/ic_search_"
-            android:ems="10"
-            android:gravity="center|left"
-            android:hint=" search"
-            android:inputType="number|text"
-            android:textColorHint="@color/white"
-            android:textSize="12sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="5dp" />
-
-
-    </android.widget.Toolbar>
 
     <ImageButton
         android:layout_width="36dp"
@@ -932,6 +915,7 @@
         app:srcCompat="@drawable/backk" />
 
     <ImageButton
+        android:id="@+id/profilMain"
         android:layout_width="36dp"
         android:layout_height="48dp"
         android:background="#00040404"
@@ -944,6 +928,7 @@
         app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
+        android:id="@+id/notifMain"
         android:layout_width="36dp"
         android:layout_height="48dp"
         android:background="#0D040404"
@@ -968,6 +953,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#34417E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:itemIconTint="@drawable/bar_bawah_select_icon"
+        app:itemTextColor="@drawable/bar_bawah_select_icon"
+        app:menu="@menu/bar_bawah" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/bot_bar_nav" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
